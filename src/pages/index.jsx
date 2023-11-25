@@ -1,14 +1,12 @@
-import App from "next/app";
 import { Provider } from "react-redux";
 import { createWrapper } from "next-redux-wrapper";
-import RentContainer from "@/app/components/RentContainer";
-import { store } from "@/app/redux/store";
+import RentContainer from "../components/RentContainer";
+import { store } from "../redux/store";
 import { SkeletonTheme } from "react-loading-skeleton";
 import 'normalize.css/normalize.css';
 import '../styles/style.scss'
-import SideNav from "@/app/components/SideNav";
-import ICDisplay from "@/app/components/ICDisplay";
-import { useEffect, useState } from "react";
+import SideNav from "../components/SideNav";
+import ICDisplay from "../components/ICDisplay";
 
 function MyApp({ Component, pageProps }) {
 

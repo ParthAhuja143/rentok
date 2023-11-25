@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { setAppBackground } from '../../../redux/actions';
 import { useEffect } from 'react';
 import ImageLoader from '../../common/ImageLoader';
+import Pill from '@/components/common/Pill';
+import { current } from '@reduxjs/toolkit';
 
 const DisplayRent = ({
   currentRent,
@@ -51,6 +53,10 @@ const DisplayRent = ({
 
         <div style={{margin: '10px'}}>
             <p>{currentRent && currentRent.description}</p>
+        </div>
+        <div style={{margin: '10px'}}>
+          {currentRent && <Pill content={currentRent.notes} />}
+          {currentRent && <Pill content={currentRent.type} />}
         </div>
       </div>
     </div>

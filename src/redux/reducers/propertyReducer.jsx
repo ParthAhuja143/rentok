@@ -1,4 +1,4 @@
-import { PROPERTY_STATE } from "@/app/constants/actionTypes";
+import { PROPERTY_STATE } from "../../constants/actionTypes";
 
 export const propertyReducer = (state = null, action) => {
     switch (action.type) {

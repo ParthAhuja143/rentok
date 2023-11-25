@@ -1,4 +1,4 @@
-const { RENT_LIST_STATE, PROPERTY_STATE, APP_BACKGROUND, RENT_STATE, SCREEN_STATE } = require("@/app/constants/actionTypes");
+const { RENT_LIST_STATE, PROPERTY_STATE, APP_BACKGROUND, RENT_STATE, SCREEN_STATE } = require("../../constants/actionTypes");
 
 export const setRentList = (rentList) => ({
     type: RENT_LIST_STATE.SET_RENT_LIST,

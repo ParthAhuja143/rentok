@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import {rentData} from '../../data/index';
 import RentLog from '../common/RentLog'
 import { AppState } from '../../redux/store';
-import { setRentList } from '@/app/redux/actions';
+import { setRentList } from '../../redux/actions';
 //import Searchbar from '../Searchbar/Searchbar'
 //import { setSongList } from '../../redux/actions'
 

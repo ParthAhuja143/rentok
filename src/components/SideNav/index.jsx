@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { connect } from "react-redux";
 import {setCurrentProperty, setCurrentScreen} from '../../redux/actions'
-import { sideNavOptions } from "@/app/data";
+import { sideNavOptions } from "../../data";
 
 const Sidenav = (props) => {
 

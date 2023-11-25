@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Skeleton from 'react-loading-skeleton';
 import { connect } from 'react-redux';
 import ImageLoader from '../ImageLoader';
-import { setCurrentRent } from '@/app/redux/actions';
+import { setCurrentRent } from '../../../redux/actions';
 
 const RentLog = ({loading, rentLog, setCurrentRent}) => {
 
