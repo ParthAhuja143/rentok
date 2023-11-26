@@ -32,20 +32,6 @@ const ICContainer = (props) => {
     }
   }, [props.currentRent])
 
-  
-  /*useEffect(() => {
-    if(audioRef.current && currentTrack){
-        audioRef.current.src = currentTrack.url;
-        /*
-        prominent(currentTrack.url, { amount: 1 }).then(color => {
-            console.log(color) // [241, 221, 63]
-          })
-
-        //average(currentTrack.url).then(res => console.log(res))
-    }
-  }, [currentTrack])
-  */
-
   return (
     <>
       <div className="audio-player">

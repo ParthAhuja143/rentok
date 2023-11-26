@@ -33,7 +33,6 @@ const Sidenav = (props) => {
 
     // Generate color based on hash
     const backgroundColor = `hsl(${hash % 360}, 70%, 5%)`;
-    console.log(backgroundColor)
     return { backgroundColor };
   };
 

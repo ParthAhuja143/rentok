@@ -6,7 +6,6 @@ const ImageLoader = ({ src, alt, className, circle, height, width }) => {
   const [loaded, setLoaded] = useState(false);
 
   const onLoad = () => {
-    console.log('Image loaded successfully');
     setLoaded(true);
   };
 

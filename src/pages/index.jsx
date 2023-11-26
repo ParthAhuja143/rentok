@@ -7,6 +7,7 @@ import 'normalize.css/normalize.css';
 import '../styles/style.scss'
 import SideNav from "../components/SideNav";
 import ICDisplay from "../components/ICDisplay";
+import "react-loading-skeleton/dist/skeleton.css";
 
 function MyApp({ Component, pageProps }) {
 
@@ -14,10 +15,9 @@ function MyApp({ Component, pageProps }) {
     <Provider store={store}>
       <SkeletonTheme baseColor='#000000' highlightColor='#111111' duration={1}>
       <div className='body-container'>
-            <SideNav />
-            <RentContainer
-            />
-            <ICDisplay />
+        <SideNav />
+        <RentContainer/>
+        <ICDisplay />
       </div>
       </SkeletonTheme>
     </Provider>

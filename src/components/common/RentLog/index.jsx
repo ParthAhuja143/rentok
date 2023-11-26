@@ -28,7 +28,7 @@ const RentLog = ({loading, rentLog, setCurrentRent}) => {
 				circle
 				height={'48px'}
 				width={"48px"}
-				className='rent-icon'
+				className='song-icon'
 				/>
 				:
 				<ImageLoader 

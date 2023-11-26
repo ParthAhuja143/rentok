@@ -5,7 +5,6 @@ import { setAppBackground } from '../../../redux/actions';
 import { useEffect } from 'react';
 import ImageLoader from '../../common/ImageLoader';
 import Pill from '@/components/common/Pill';
-import { current } from '@reduxjs/toolkit';
 
 const DisplayRent = ({
   currentRent,
@@ -17,7 +16,6 @@ const DisplayRent = ({
 
   useEffect(() => {
     if(data){
-      console.log(data)
       document.body.style.backgroundImage = `linear-gradient(135deg, ${data.darkVibrant} 0%, #000 100%)`;
       setBackground(data);
     }

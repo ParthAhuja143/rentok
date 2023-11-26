@@ -7,6 +7,4 @@ const nextConfig = {
       },
 }
 
-console.log(path.join(__dirname))
-
 module.exports = nextConfig
